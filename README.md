@@ -1,11 +1,11 @@
-Terraform module which Disaster recovery migration and drill across availability areas in the same city on Alibaba Cloud
+Terraform module which disaster recovery migration and drill across availability areas in the same city on Alibaba Cloud
 
 terraform-alicloud-vpc-ecs-rds-slb-redis
 ---
 
 English | [简体中文](README-CN.md)
 
-This module is used to create a Disaster recovery migration and drill across availability areas in the same city
+This module is used to create a disaster recovery migration and drill across availability areas in the same city
 environment.
 
 These types of resources are supported:
@@ -53,7 +53,7 @@ module "example" {
 If you have any problems when using this module, please opening
 a [provider issue](https://github.com/aliyun/terraform-provider-alicloud/issues/new) and let us know.
 
-**Note:** There does not recommend to open an issue on this repo.
+**Note:** There does not recommend opening an issue on this repo.
 
 ## Authors
 
