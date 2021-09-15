@@ -1,4 +1,4 @@
-Terraform module which Disaster recovery migration and drill across availability areas in the same city on Alibaba Cloud
+Terraform module which disaster recovery migration and drill across availability areas in the same city on Alibaba Cloud
 
 terraform-alicloud-vpc-ecs-rds-slb-redis
 ---
@@ -7,7 +7,7 @@ terraform-alicloud-vpc-ecs-rds-slb-redis
 
 本 Module 用于在阿里云的 VPC 下创建一个同城跨可用区容灾迁移及演练环境。
 
-本 Module 支持创建以下资源:
+本 Module 支持创建以下资源：
 
 * [alicloud_vpc](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/vpc)
 * [alicloud_vswitch](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/vswitch)
