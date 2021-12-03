@@ -1,19 +1,3 @@
-resource "alicloud_vpc" "default" {
-  vpc_name   = var.name
-  cidr_block = var.cidr_block
-}
-
-resource "alicloud_vswitch" "default" {
-  vswitch_name = var.name
-  cidr_block   = var.cidr_block
-  vpc_id       = alicloud_vpc.default.id
-  zone_id      = var.availability_zone
-}
-
-resource "alicloud_security_group" "default" {
-  name   = var.name
-  vpc_id = alicloud_vpc.default.id
-}
 
 resource "alicloud_slb_load_balancer" "default" {
   load_balancer_name = var.name
